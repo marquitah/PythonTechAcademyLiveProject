@@ -1,0 +1,3 @@
+/********SCRIPTS FOR CHANGING BACKGROUND IMAGE**********/
+$(userBackground);
+var img = ["/static/images/traveling.jpg","/static/images/Airplane.jpg","/static/images/Beach.jpg","/static/images/Florence.jpg","/static/images/Map.jpg","/static/images/SouthKorea.jpg","/static/images/Globe.jpg","/static/images/Airplane2.jpg","/static/images/Japan.jpeg","/static/images/Iceland.jpg","/static/images/Beach2.jpg"];
