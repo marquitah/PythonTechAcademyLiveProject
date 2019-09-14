@@ -55,8 +55,6 @@ var img = ["/static/images/traveling.jpg","/static/images/Airplane.jpg","/static
  
  Below is a snippet of the web scraping portion of the application.
  
- #web scraping code to get country or area, UN continental region, UN statistical region, 
-# population (July 1, 2018), population (July 1, 2019), percent change in population
 import requests #for getting content from a URL
 from bs4 import BeautifulSoup #is used to parse through the HTML we get from requests
 import pandas as pd 
