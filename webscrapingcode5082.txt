@@ -1,0 +1,33 @@
+#web scraping code to get country or area, UN continental region, UN statistical region, 
+# population (July 1, 2018), population (July 1, 2019), percent change in population
+import requests #for getting content from a URL
+from bs4 import BeautifulSoup #is used to parse through the HTML we get from requests
+import pandas as pd 
+import csv
+import numpy as np
+import re
+from urllib.request import urlopen
+from prettytable import PrettyTable
+
+url = "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)"
+html = urlopen(url)
+
+soup = BeautifulSoup(html, "lxml")
+
+title = soup.title
+links = soup.find('a', href=True)
+
+for link in links:
+    data = []
+    allrows = soup.find_all("tr")
+    for row in allrows:
+        row_list = row.find_all("td")
+        dataRow = []
+        for cell in row_list:
+            dataRow.append(cell.text)
+        data.append(dataRow)
+data = data[1:]
+
+df = pd.DataFrame(data)
+df.to_csv('worldtable.csv', encoding='utf-8', index=False)
+print(open('worldtable.csv','r').read()) 

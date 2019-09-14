@@ -1,0 +1,20 @@
+Stories for Live Project September 2019
+
+1st Story:
+We are getting reports from our users that they would like to be able to choose from a larger selection of photos than the four we have currently.  Find some pics that relate in some way to travel and add them to our project so users can select them as their background (about 10 total)-- hint a new one has already been uploaded, you'll just need to include it in the options.
+
+2nd Story:
+This will be a new app that we will use to scrape data from wikipedia using beautiful soup.  This app will display information about the world that will be relevant to travelers.
+
+Eventually, we will use this app to display data scraped from multiple wikipedia pages, but to begin this app, we will just have one section where we scrape data from this wikipedia article:
+
+https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)
+
+Requirements:
+Use beautiful soup to pull data from this article including country name, country population, and region.
+Create a table that display this information.
+Extra:
+Also display a country's flag
+Here is a beautiful soup tutorial if you need one: https://www.dataquest.io/blog/web-scraping-tutorial-python/
+
+There's a lot of documentation on beautiful soup out there, so it should be easy to find helpful material.

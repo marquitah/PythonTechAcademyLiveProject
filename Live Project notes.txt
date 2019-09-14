@@ -1,0 +1,74 @@
+9/3/19
+First day of live project: What did I learn?
+
+-I learned how to navigate through the Azure DevOps platform. I've never used it before.
+-Learned a litte more about how to navigate Git and how to checkout stories to work on.
+-What is required of me being on a team of other developers and how to communicate effectively and what the golden rules are.
+
+9/4/19
+Second standup with team members and Deanna
+What did i accomplish yesterday? Did first assignment of signing name
+What will i accomplish today? getting started on first story and getting it up and running
+Roadblocks? getting story up and running...
+
+9/5/19
+Third standup
+What did I accomplish yesterday? I gained a better understanding of what I need to do to complete my story. Got more familiar with the project and the code.
+What will I accomplish today? I'm going to get some photos together and learn what I need to do in order to make them available on the site. I also want to start the bonus section that includes adding an option for users to add their own photo as the background.
+Roadblocks? Not being familiar with the project.
+
+9/6/19
+4th Stand up (Friday - Code Retrospective)
+Accomplish? Got my photos to show up; they weren't at first.
+Accomplish today? I want to figure out how to get users to upload their own photos
+Roadblocks? Not being familiar with the process of doing that. So far I have no errors but when I click the upload button nothing happens; I think I know what piece I'm missing it's just finding out where to put it is the problem.
+
+What was helpful? - all the tutorials that were sent to me were very helpful and the quick responses from instructors and team members.
+What was detrimental? -really nothing so far for me. things seem to be very positive right now.
+
+9/9/19
+5th Stand up
+What did I accomplish yesterday? 
+I attempted to finish the bonus section of my story; allowing users to upload their own image for the background. I decided not to complete that portion since I did not want to spend too much time on it. I learned a lot from researching about the topic though.
+Accomplish today?
+I have a new story that I have begun. I will create a new app that we will use to scrape data from wikipedia using beautifulsoup. It will display information about the world that will be relevant to travelers.
+Roadblocks? Not being familiar enough with python and django to complete the bonus part of my first story
+
+9/10/19
+6th Stand up
+What did I accomplish yesterday?
+I started creating a new app called World App and created my html pages. I also researched and did a tutorial for web scraping.
+Accomplish today?
+I linked my html pages so that when you click on the world app in the side panel it navigates to the world page. I also web scraped the wikipedia page for the information that I need so now I need to figure out how to display that data in a table and put it in the app.
+Roadblocks?
+Not being familiar with web scraping.
+
+9/11/19
+7th Stand up
+What did I accomplish yesterday?
+I web scraped the wikipedia page for the required information for my app.
+Accomplish today?
+I figured out how to display the information in a table in the terminal. Now I just need to display it to the html page.
+Roadblocks?
+Not knowing how to display the data.
+
+9/12/19
+8th Stand up
+What did I accomplish yesterday?
+I tried to figure out how to get my information into a csv file.
+Accomplish today? 
+Same thing, I want to get my table into a csv file then display it to the web site.
+Roadblocks?
+Not being familiar with getting scraped data into a csv file. I talked to Brenton about it this morning and he pointed me in the right direction so we'll see if I can figure it out.
+
+9/13/19
+9th Stand up (Friday: code retrospective)
+What did I accomplish yesterday?
+I got my data into a csv file and I added a button to the site to load the data onto the page.
+Accomplish today?
+My data isn't showing up on the site so today I'll try and figure out how to make it display.
+Roadblocks?
+Not knowing how to get my data to display to the page.
+
+--I like all the tutorials you guys find and send. They're super helpful.
+--Prompt responses to questions.
